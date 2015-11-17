@@ -22,8 +22,7 @@ public class Lab2 {
 
     public static void main(String[] args) throws IOException {
 
-        File info = new File(File.separatorChar + "temp" + File.separatorChar
-                + "lab1.txt");
+        File info = new File("src" + File.separatorChar + "lab1.txt");
 
         BufferedReader address = null;
         try {
@@ -54,7 +53,7 @@ public class Lab2 {
         out.println(12345);
         out.close();
 
-        System.out.println("Done");
+        
 
     }
 }
