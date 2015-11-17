@@ -35,7 +35,7 @@ public class Lab2 {
             }
 
         } catch (IOException ioException) {
-            System.out.println("Houston, we have a problem! reading this file");
+            System.out.println("Uh oh there was a problem");
         } finally {
             try {
                 address.close();

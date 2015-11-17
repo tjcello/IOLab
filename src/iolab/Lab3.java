@@ -21,7 +21,7 @@ public class Lab3 {
 
     public static void main(String[] args) throws IOException {
 
-        int record = 3;
+        int record = 4;
         int recordNumber = 3;
         File data = new File(File.separatorChar + "temp" + File.separatorChar
                 + "lab1.txt");
