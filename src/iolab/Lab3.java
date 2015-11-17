@@ -23,14 +23,13 @@ public class Lab3 {
 
         int record = 3;
         int recordNumber = 3;
-        File data = new File("F:" + File.separatorChar + "temp" + File.separatorChar
+        File data = new File(File.separatorChar + "temp" + File.separatorChar
                 + "lab1.txt");
 
        BufferedReader in = null;
             List<String> Lines = new ArrayList<>();
             try {   
-                in = new BufferedReader(new FileReader(""
-                        + "F:" + File.separatorChar + "temp" + File.separatorChar + "Lab1.txt"));
+                in = new BufferedReader(new FileReader(File.separatorChar + "temp" + File.separatorChar + "lab1.txt"));
                 String str;
                 while ((str = in.readLine()) != null) {
                     Lines.add(str);
